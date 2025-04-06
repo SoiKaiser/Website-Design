@@ -1,7 +1,8 @@
+/*Home*/
 body{
   background-color: #000;
 }
-/* Navigation bar styling */
+
 .topnav {
     display: flex;
     justify-content: space-between;
@@ -32,7 +33,7 @@ nav a:hover {
   width: 100%; 
   padding: 300px;
 }
-/* Center content in the page */
+
 .title {
   position:absolute;
   display:flex;
@@ -41,8 +42,116 @@ nav a:hover {
   justify-content: center;
   height: 800px;
   font-size: 6em;
-  top: 50%;  /* Position the text vertically in the middle */
-  left: 50%; /* Position the text horizontally in the middle */
+  top: 50%;  
+  left: 50%; 
   transform: translate(-50%, -50%);
   color: #838996;
+}
+/*Portfolio*/
+*{
+  box-sizing: border-box;
+}
+.art {
+  display: inline-block;
+  padding: 20px;
+  padding-left: 150px;
+}
+.art img {
+  margin: 0px 50px;
+  margin-top: 50px;
+  height: 400px;
+  width: 400px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/*About Me*/
+.images img {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  display: block;
+  height: 100%;
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  background-color: #000;
+  border-color: 10px solid #aefe13;
+  
+}
+.name {
+  position:relative;
+  display: flex;
+  align-items: 100%;
+  justify-content: center;
+  font-size: 2em;
+  color: #838996;
+}
+.kay {
+  position: absolute;
+  justify-content: right;
+  display: flex;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #000000; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: center;
+}
+
+/*Commissions*/
+.big h1 {
+color: #838996;
+padding-top: 220px;
+font-size: 4em;
+}
+
+.website-form {
+  margin-bottom: 100px;
+}
+.form-element {
+  display: flex;
+  margin-top: 10px;
+}
+.form-element label {
+  width: 200px;
+}
+.form-element input,
+.form-element select,
+.form-element textarea {
+  display: block;
+  width: 500px;
+  padding: 5px;
+}
+.form-element textarea {
+  size: 200px;
+  width: 500px;
+  padding-right: 590px;
+}
+.main-content {
+  color: #838996;
+  padding-left: 1250px;
+  font-size: 2em;
 }
